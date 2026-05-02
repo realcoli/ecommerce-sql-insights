@@ -35,9 +35,9 @@ Evaluated sales volume and revenue generation across different categories and in
 - Implement advanced window functions to calculate Month-over-Month (MoM) revenue growth.
 - Create customer purchase frequency metrics to evaluate long-term Lifetime Value (LTV).
 
-## ✍️ Autoria e Contato
+## ✍️ Author & Contact
 
-Desenvolvido por **Renata Alves**. Se você tiver alguma dúvida, sugestão ou quiser conversar sobre este projeto, sinta-se à vontade para entrar em contato:
+Developed by **Renata Alves**. If you have any questions, suggestions, or would like to discuss this project, feel free to reach out:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/realcoli)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/realcoli)
