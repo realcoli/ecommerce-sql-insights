@@ -36,32 +36,7 @@ O script foi desenvolvido para calcular e apontar automaticamente os seguintes i
 
 
 
-////////////////////////////////
-# Análise de Inteligência de Vendas em E-commerce com SQL
 
-Este repositório contém um projeto de análise de dados que utiliza Python e SQL (`sqlite3`) para criar um ecossistema completo de vendas, faturamento e comportamento de clientes.
-
-## Objetivo
-Demonstrar a aplicação de consultas SQL complexas (Agregações, Joins, Ordenação e Filtros) para a extração de métricas de negócios dinâmicas.
-
-## Diferencial Técnico
-Os dados deste projeto são gerados em tempo de execução via biblioteca `Faker` em Python, garantindo uma base de dados realista para testes de queries. O notebook processa os resultados em DataFrames do Pandas e gera automaticamente insights de negócio com base nas flutuações dos dados.
-
-## Como Executar
-1. Abra o arquivo no Google Colab.
-2. Execute a célula de código.
-3. Observe os resultados das consultas SQL e a geração dinâmica de insights no final do relatório.
-
-# 📊 Análise de Comportamento de Usuários de Delivery
-
-[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GNxiTzfROMjAwSE2AFFOtniFGfwDZZVO?usp=sharing)
-
-Projeto orientado à geração de insights estratégicos com base em dados reais de consumo...
-
-
-
----
----
 
 ## ✍️ Autoria e Contato
 
@@ -70,19 +45,3 @@ Desenvolvido por **Renata Alves**. Se você tiver alguma dúvida, sugestão ou q
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/realcoli)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/realcoli)
 [![E-mail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:renata.alvescl@gmail.com)
-
-
-# Análise de Inteligência de Vendas em E-commerce com SQL
-
-Este repositório contém um projeto de análise de dados que utiliza Python e SQL (`sqlite3`) para criar um ecossistema completo de vendas, faturamento e comportamento de clientes.
-
-## Objetivo
-Demonstrar a aplicação de consultas SQL complexas (Agregações, Joins, Ordenação e Filtros) para a extração de métricas de negócios dinâmicas.
-
-## Diferencial Técnico
-Os dados deste projeto são gerados em tempo de execução via biblioteca `Faker` em Python, garantindo uma base de dados realista para testes de queries. O notebook processa os resultados em DataFrames do Pandas e gera automaticamente insights de negócio com base nas flutuações dos dados.
-
-## Como Executar
-1. Abra o arquivo no Google Colab.
-2. Execute a célula de código.
-3. Observe os resultados das consultas SQL e a geração dinâmica de insights no final do relatório.
