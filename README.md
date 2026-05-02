@@ -7,36 +7,28 @@ Este repositório contém um projeto de análise de dados que utiliza Python e S
 ## 🎯 Objetivo
 Demonstrar a aplicação de consultas SQL complexas (Agregações, Joins, Ordenação e Filtros) para a extração de métricas de negócios dinâmicas.
 
-## Diferencial Técnico
+## 💡 Diferencial Técnico
 Os dados deste projeto são gerados em tempo de execução via biblioteca `Faker` em Python, garantindo uma base de dados realista para testes de queries. O notebook processa os resultados em DataFrames do Pandas e gera automaticamente insights de negócio com base nas flutuações dos dados.
 
-## Como Executar
+## 🚀 Como Executar
 1. Abra o arquivo no Google Colab.
 2. Execute a célula de código.
 3. Observe os resultados das consultas SQL e a geração dinâmica de insights no final do relatório.
 
 ## 🛠️ Ferramentas Utilizadas
 
-* **SQL / SQLite3** (Consultas analíticas (Joins, Filtros, Agregações e Ordenação) para extração de métricas de negócio).
+* **SQL / SQLite3:** Consultas analíticas (Joins, Filtros, Agregações e Ordenação) para extração de métricas de negócio.
+* **Python / Google Colab:** Execução das queries e ambiente de desenvolvimento.
+* **Pandas:** Manipulação e visualização amigável dos resultados das consultas.
+* **Faker:** Geração dinâmica de dados realistas para simulação do e-commerce.
 
-* **Python / Google Colab** (Execução das queries e ambiente de desenvolvimento).
-
-* **Pandas** (Manipulação e visualização amigável dos resultados das consultas).
-
-* **Faker** (Geração dinâmica de dados realistas para simulação do e-commerce).
-
-
-## Insights Extraídos Automaticamente pelo Projeto
+## 📈 Insights Extraídos Automaticamente pelo Projeto
 
 O script foi desenvolvido para calcular e apontar automaticamente os seguintes insights de negócio a cada execução:
 
 * **Sazonalidade e Faturamento:** Identificação exata do mês de maior e menor faturamento, permitindo decisões de marketing e promoções.
 * **Curva ABC de Clientes:** Mapeamento do cliente de maior valor (VIP) para estratégias de retenção e programas de fidelidade.
-* **Mix de Produtos Estratégicos:** Identificação do produto campeão de vendas e da categoria mais rentável para otimização de estoque.O script foi desenvolvido para calcular e apontar automaticamente os seguintes insights de negócio a cada execução:
-
-
-
-
+* **Mix de Produtos Estratégicos:** Identificação do produto campeão de vendas e da categoria mais rentável para otimização de estoque.
 
 ## ✍️ Autoria e Contato
 
