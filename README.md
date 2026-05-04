@@ -1,45 +1,94 @@
 # 📊 Sales Intelligence Analysis with SQL
 
-[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1S7-2_Ng3BpsEwKBetiXUa9v5wTPxz_Fl?usp=sharing)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1S7-2_Ng3BpsEwKBetiXUa9v5wTPxz_Fl?usp=sharing)
 
-This project extracts financial and operational metrics from an e-commerce relational database using SQL queries to drive strategic business decisions.
+This project focuses on extracting actionable business insights from an e-commerce relational database using SQL. The analysis simulates real-world business scenarios, supporting strategic decision-making in sales, marketing, and operations.
+
+---
 
 ## 🎯 Project Objectives
-- Understand monthly sales evolution and revenue growth.
-- Map high-value customers (VIPs) for retention campaigns.
-- Analyze product and category performance to optimize stock and marketing resources.
+
+- Analyze monthly revenue trends and sales performance over time  
+- Identify high-value customers (VIPs) for targeted retention strategies  
+- Evaluate product and category performance to optimize inventory and marketing decisions  
+
+---
 
 ## 🛠️ Technologies & Tools
-- **Language:** SQL (SQLite), Python
-- **Libraries:** Pandas, SQLite3, Faker
-- **Environment:** Google Colab
+
+- **SQL (SQLite)**  
+- Python  
+- Pandas, SQLite3  
+- Google Colab  
+
+---
+
+## 💡 SQL Skills Demonstrated
+
+- Data extraction using `SELECT`, `WHERE`, `ORDER BY`  
+- Aggregations with `SUM`, `COUNT`, `AVG`  
+- Grouping data with `GROUP BY`  
+- Revenue calculation (`quantity * unit_price`)  
+- Multi-table analysis using `JOIN`  
+- Date formatting with `strftime`  
+- Business-oriented query design  
+
+---
 
 ## 📈 Analysis & Key Insights
 
 ### 1. Monthly Revenue Evolution
-Identified transaction volume and revenue fluctuation over time to support demand planning.
-* **SQL Query Focus:** Data formatting (`strftime`), aggregations (`COUNT`, `SUM`), and filtering active orders.
-* **Business Insight:** Mapping monthly revenue performance allows marketing teams to prepare promotions for low-performance months and predict supply needs for peak periods.
+Analyzed revenue patterns over time to identify seasonality and growth trends.
+
+- **SQL Focus:** `strftime`, aggregations, time-based grouping  
+- **Insight:** Understanding revenue fluctuations enables proactive planning for promotions and inventory management  
+
+---
 
 ### 2. High-Value Customer Segmentation (VIPs)
-Extracted the top 5 customers with the highest spending on the platform.
-* **SQL Query Focus:** Multi-table joins (`JOIN`), filtering (`WHERE`), and grouping (`GROUP BY`).
-* **Business Insight:** Knowing exactly who the top customers are enables the business to create targeted loyalty programs and customized perks.
+Identified top customers based on total spending.
+
+- **SQL Focus:** `JOIN`, filtering, grouping, sorting  
+- **Insight:** Enables targeted retention strategies such as loyalty programs and personalized offers  
+
+---
 
 ### 3. Product & Category Performance
-Evaluated sales volume and revenue generation across different categories and individual products.
-* **SQL Query Focus:** Joins, sorting (`ORDER BY DESC`), and unit-revenue multiplication (`SUM(quantity * unit_price)`).
-* **Business Insight:** Electronics and household appliances proved highly lucrative, indicating where to focus inventory expansion and marketing efforts.
+Evaluated revenue contribution across categories and products.
+
+- **SQL Focus:** Aggregations, joins, revenue calculation  
+- **Insight:** Highlights top-performing categories to guide strategic investment and stock allocation  
+
+---
+
+## 📁 Project Structure
+
+ecommerce-sql-insights
+│
+├── sql
+│ ├── 01_monthly_revenue.sql
+│ ├── 02_top_customers.sql
+│ ├── 03_category_performance.sql
+│
+├── ecommerce_sql_insights.ipynb
+├── README.md
+
+
+
+---
 
 ## 🔮 Next Steps
-- Implement advanced window functions to calculate Month-over-Month (MoM) revenue growth.
-- Create customer purchase frequency metrics to evaluate long-term Lifetime Value (LTV).
 
-## ✍️ Author & Contact
+- Implement window functions for Month-over-Month (MoM) analysis  
+- Calculate Customer Lifetime Value (LTV)  
+- Expand analysis with customer segmentation and cohort analysis  
 
-Developed by **Renata Alves**. If you have any questions, suggestions, or would like to discuss this project, feel free to reach out:
+---
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/realcoli)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/realcoli)
-[![E-mail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:renata.alvescl@gmail.com)
+## ✍️ Author
 
+Developed by **Renata Alves**
+
+🔗 [LinkedIn](https://www.linkedin.com/in/realcoli)  
+🔗 [GitHub](https://github.com/realcoli)  
+📧 renata.alvescl@gmail.com
