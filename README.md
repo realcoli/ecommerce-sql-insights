@@ -38,27 +38,36 @@ This project focuses on extracting actionable business insights from an e-commer
 ## 📈 Analysis & Key Insights
 
 ### 1. Monthly Revenue Evolution
+
 Analyzed revenue patterns over time to identify seasonality and growth trends.
 
-
 - **SQL Focus:** `strftime`, aggregations, time-based grouping  
-- **Insight:** Understanding revenue fluctuations enables proactive planning for promotions and inventory management  
+- **Business Insight:** Understanding revenue fluctuations enables proactive planning for promotions and inventory management  
 
 ---
 
 ### 2. High-Value Customer Segmentation (VIPs)
+
 Identified top customers based on total spending.
 
 - **SQL Focus:** `JOIN`, filtering, grouping, sorting  
-- **Business Insight:**  The top 10 customers represent approximately **30–40% of total revenue**, indicating a strong concentration of sales among high-value users. This suggests an opportunity to invest in retention strategies and personalized engagement.
+- **Business Insight:** The top 10 customers represent approximately **30–40% of total revenue**, indicating a strong concentration of sales among high-value users. This suggests an opportunity to invest in retention strategies and personalized engagement.  
 
 ---
 
 ### 3. Product & Category Performance
+
 Evaluated revenue contribution across categories and products.
 
 - **SQL Focus:** Aggregations, joins, revenue calculation  
-- **Insight:** Highlights top-performing categories to guide strategic investment and stock allocation  
+- **Business Insight:** Highlights top-performing categories to guide strategic investment and stock allocation  
+
+#### 📊 Example Visualization
+
+![Revenue by Category](category_revenue.png)
+
+**Business Insight:**  
+Electronics dominate revenue generation, significantly outperforming all other categories. This indicates a strong opportunity to prioritize inventory expansion and targeted marketing investments in this segment.
 
 ---
 
@@ -74,7 +83,6 @@ ecommerce-sql-insights
 │
 ├── ecommerce_sql_insights.ipynb
 ├── README.md
-```
 
 
 
@@ -88,10 +96,8 @@ ecommerce-sql-insights
 
 ---
 
-## ✍️ Author
-
+## ✍️ Author & Contact
 Developed by **Renata Alves**
-
-🔗 [LinkedIn](https://www.linkedin.com/in/realcoli)  
-🔗 [GitHub](https://github.com/realcoli)  
-📧 renata.alvescl@gmail.com
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/realcoli)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/realcoli)
+[![E-mail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:renata.alvescl@gmail.com)
