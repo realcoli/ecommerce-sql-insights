@@ -84,7 +84,7 @@ ecommerce-sql-insights
 ├── ecommerce_sql_insights.ipynb
 ├── README.md
 
-
+```
 
 ---
 
