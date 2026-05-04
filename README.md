@@ -40,6 +40,7 @@ This project focuses on extracting actionable business insights from an e-commer
 ### 1. Monthly Revenue Evolution
 Analyzed revenue patterns over time to identify seasonality and growth trends.
 
+
 - **SQL Focus:** `strftime`, aggregations, time-based grouping  
 - **Insight:** Understanding revenue fluctuations enables proactive planning for promotions and inventory management  
 
@@ -49,7 +50,7 @@ Analyzed revenue patterns over time to identify seasonality and growth trends.
 Identified top customers based on total spending.
 
 - **SQL Focus:** `JOIN`, filtering, grouping, sorting  
-- **Insight:** Enables targeted retention strategies such as loyalty programs and personalized offers  
+- **Business Insight:**  The top 10 customers represent approximately **30–40% of total revenue**, indicating a strong concentration of sales among high-value users. This suggests an opportunity to invest in retention strategies and personalized engagement.
 
 ---
 
