@@ -63,15 +63,17 @@ Evaluated revenue contribution across categories and products.
 
 ## 📁 Project Structure
 
+```text
 ecommerce-sql-insights
 │
 ├── sql
-│ ├── 01_monthly_revenue.sql
-│ ├── 02_top_customers.sql
-│ ├── 03_category_performance.sql
+│   ├── 01_monthly_revenue.sql
+│   ├── 02_top_customers.sql
+│   ├── 03_category_performance.sql
 │
 ├── ecommerce_sql_insights.ipynb
 ├── README.md
+```
 
 
 
